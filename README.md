@@ -42,6 +42,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import UINT16_MAX from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-uint16-max@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/constants-uint16-max/tags). For example,
+
+```javascript
 import UINT16_MAX from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-uint16-max@v0.2.0-deno/mod.js';
 ```
 
@@ -67,7 +72,7 @@ var bool = ( UINT16_MAX === 65535 );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import UINT16_MAX from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-uint16-max@v0.2.0-deno/mod.js';
+import UINT16_MAX from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-uint16-max@deno/mod.js';
 
 console.log( UINT16_MAX );
 // => 65535
