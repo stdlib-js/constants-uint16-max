@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import UINT16_MAX from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-uint16-max@deno/mod.js';
+import UINT16_MAX from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-uint16-max@v0.2.1-deno/mod.js';
 ```
 
 #### UINT16_MAX
@@ -67,7 +67,7 @@ var bool = ( UINT16_MAX === 65535 );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import UINT16_MAX from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-uint16-max@deno/mod.js';
+import UINT16_MAX from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-uint16-max@v0.2.1-deno/mod.js';
 
 console.log( UINT16_MAX );
 // => 65535
